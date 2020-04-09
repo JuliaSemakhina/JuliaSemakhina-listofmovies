@@ -613,8 +613,11 @@ nav a {
 
 .portfolio-title {
   color: #FFFFFF;
-  font-size: 2rem;
+   font-size: 1.5em;
   margin-bottom: auto; }
+  @media (min-width: 50rem) {
+    .portfolio-title {
+      font-size: 2em; } }
 
 .portfolio-desc {
   display: none; }
