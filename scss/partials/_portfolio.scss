@@ -53,9 +53,12 @@
 
 .portfolio-title {
 	color: $white;
-	font-size: 2rem;
+	font-size: 1.5em;
 	margin-bottom: auto;
-	
+
+	@include mq {
+		font-size: 2em;
+	}
 }
 
 .portfolio-desc {
